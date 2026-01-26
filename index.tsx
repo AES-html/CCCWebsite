@@ -1,8 +1,9 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
+
+console.log("Carolina Care Collective: App is mounting...");
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
