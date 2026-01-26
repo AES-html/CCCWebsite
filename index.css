@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.carolina-blue {
+    @apply bg-[#7BAFD4];
+}
+
+.text-carolina-blue {
+    @apply text-[#7BAFD4];
+}
+
+.border-carolina-blue {
+    @apply border-[#7BAFD4];
+}
