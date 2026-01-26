@@ -3,16 +3,23 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 
-console.log("Carolina Care Collective: App is mounting...");
+// Verification log for deployment
+console.log("🚀 Carolina Care Collective: System Initializing...");
 
 const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
 
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+if (!rootElement) {
+  console.error("❌ Critical Error: Target container #root not found in index.html");
+} else {
+  try {
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    );
+    console.log("✅ Carolina Care Collective: Application Mounted");
+  } catch (error) {
+    console.error("❌ Critical Error during mounting:", error);
+  }
+}
