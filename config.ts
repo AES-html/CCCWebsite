@@ -8,7 +8,7 @@ import { ClubEvent, BoardMember, CountdownConfig } from './types';
  * change this to "./logo.png" or whatever your filename is.
  * ==========================================
  */
-export const CLUB_LOGO = "/ccclogo.jpg"; // Example: "/logo.png"
+export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
 
 /**
  * ==========================================
@@ -43,31 +43,31 @@ export const BOARD_MEMBERS: BoardMember[] = [
   {
     name: "Ian Mcduffie",
     role: "Co-President",
-    image: "/IMG_4879.jpeg",
+    image: "IMG_4879.jpeg",
     bio: "For me, compassionate healthcare doesn’t have take place in a hospital or doctor’s office. CCC offers me the chance to learn and serve in overlooked areas, which are often some of the most genuine and welcome people."
   },
   {
     name: "Rebecca Laruffa",
     role: "Co-President",
-    image: "./IMG_3874.jpeg",
+    image: "IMG_3874.jpeg",
     bio: "I’m passionate about helping the unhoused population because housing insecurity is not just a lack of shelter—it’s a loss of stability, dignity, and opportunity. I believe everyone deserves to feel safe, seen, and supported, and I’m driven to help provide that."
   },
   {
     name: "Anderson Stark",
     role: "Vice President",
-    image: "./squareheadshot.jpg",
+    image: "squareheadshot.jpg",
     bio: "I’m passionate about CCC because in this day and age, we need to be able to rely on our neighbors especially when it comes to healthcare. With rising costs, I think that making healthcare accessible to everyone should be a priority of the volunteer community!"
   },
   {
     name: "James Dudek",
     role: "Marketing Officer",
-    image: "./james.jpg",
+    image: "james.jpg",
     bio: "From the moment I became passionate about pursuing a career in healthcare, I realized the system was far from perfect and was leaving too many people behind. CCC gives me the ability to put actions before words and connect with other passionate individuals who want to help bridge the gaps in healthcare inequity for those experiencing homelessness, and make some real meaningful, necessary change in the community."
   },
     {
     name: "Isabel levine",
     role: "Treasurer",
-    image: "./IMG_2819.jpeg",
+    image: "IMG_2819.jpeg",
     bio: "I am passionate about mental and physical health especially relating to underfunded or overlooked populations. CCC is a way to engage in community outreach and help people while meeting other students who have the same goals."
   }
 ];
@@ -78,4 +78,5 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
 
