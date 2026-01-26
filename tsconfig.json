@@ -16,8 +16,19 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["node"]
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"]
+    }
   },
-  "include": ["./*.ts", "./*.tsx", "./components/**/*.ts", "./components/**/*.tsx", "./pages/**/*.ts", "./pages/**/*.tsx"],
+  "include": [
+    "./*.ts",
+    "./*.tsx",
+    "./components/**/*.ts",
+    "./components/**/*.tsx",
+    "./pages/**/*.ts",
+    "./pages/**/*.tsx"
+  ],
   "exclude": ["node_modules", "src", "dist"]
 }
