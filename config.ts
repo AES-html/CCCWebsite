@@ -8,7 +8,7 @@ import { ClubEvent, BoardMember, CountdownConfig } from './types';
  * change this to "./logo.png" or whatever your filename is.
  * ==========================================
  */
-export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
+export const CLUB_LOGO = "/ccclogo.jpg"; // Example: "/logo.png"
 
 /**
  * ==========================================
@@ -43,7 +43,7 @@ export const BOARD_MEMBERS: BoardMember[] = [
   {
     name: "Ian Mcduffie",
     role: "Co-President",
-    image: "./IMG_4879.jpeg",
+    image: "/IMG_4879.jpeg",
     bio: "For me, compassionate healthcare doesn’t have take place in a hospital or doctor’s office. CCC offers me the chance to learn and serve in overlooked areas, which are often some of the most genuine and welcome people."
   },
   {
@@ -78,3 +78,4 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
