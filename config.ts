@@ -42,7 +42,7 @@ export const CLUB_EVENTS: ClubEvent[] = [
     title: 'Dr.Bradys Talk',
     date: new Date('2026-02-23T13:00:00'),
     location: 'GSU 2420',
-    description: 'Come hear Dr.Brady speak about service in our area!',
+    description: 'Serving those experiencing homelessness with Dr.Brady!',
     type: 'Meeting'
   },
 ];
@@ -86,6 +86,7 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
 
 
 
