@@ -28,7 +28,7 @@ const WhatWeDo: React.FC = () => {
           <FeatureCard 
             icon={MapPin}
             title="Street Outreach"
-            description="Our primary initiative involves regular regular volunteering in the Triangle area. We work at organizations such as homeless shelters, food pantries, and many more."
+            description="Our primary initiative involves regular volunteering in the Triangle area. We work at organizations such as homeless shelters, food pantries, and many more."
           />
           <FeatureCard 
             icon={Stethoscope}
@@ -84,3 +84,4 @@ const WhatWeDo: React.FC = () => {
 };
 
 export default WhatWeDo;
+
