@@ -69,7 +69,7 @@ export const BOARD_MEMBERS: BoardMember[] = [
   {
     name: "James Dudek",
     role: "Marketing Officer",
-    image: "james.jpg",
+    image: "jamesdudek.jpg",
     bio: "From the moment I became passionate about pursuing a career in healthcare, I realized the system was far from perfect and was leaving too many people behind. CCC gives me the ability to put actions before words and connect with other passionate individuals who want to help bridge the gaps in healthcare inequity for those experiencing homelessness, and make some real meaningful, necessary change in the community."
   },
     {
@@ -86,6 +86,7 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
 
 
 
