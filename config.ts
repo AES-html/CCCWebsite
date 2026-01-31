@@ -17,7 +17,7 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  * ==========================================
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
-  targetDate: "2026-01-30T18:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
+  targetDate: "2026-02-23T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
   title: "Next Event: Student Interest Meeting", // CHANGE THIS: Displayed above the timer
   details: "Join us at the Student Union room 3408 on January 30th @6pm for our first interest meeting!" // CHANGE THIS: Detailed info
 };
@@ -29,14 +29,6 @@ export const COUNTDOWN_CONFIG: CountdownConfig = {
  * ==========================================
  */
 export const CLUB_EVENTS: ClubEvent[] = [
-  {
-    id: '1',
-    title: 'Interest Meeting',
-    date: new Date('2026-01-30T18:00:00'),
-    location: 'Student Union Room 3408',
-    description: 'Come learn about upcoming service opportunities and meet the club!',
-    type: 'Meeting'
-  },
   {
     id: '1',
     title: 'Dr.Bradys Talk',
@@ -86,6 +78,7 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
 
 
 
