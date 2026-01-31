@@ -18,7 +18,7 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
   targetDate: "2026-02-23T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
-  title: "Next Event: Student Interest Meeting", // CHANGE THIS: Displayed above the timer
+  title: "Next Event: Dr.Bradys Talk", // CHANGE THIS: Displayed above the timer
   details: "Join us at the Student Union room 3408 on January 30th @6pm for our first interest meeting!" // CHANGE THIS: Detailed info
 };
 
@@ -78,6 +78,7 @@ export const EXTERNAL_LINKS = {
   instagram: "https://www.instagram.com/care.collective.at.carolina?igsh=MTg0enlmamZrNzBqeQ==",
   email: "carecollective0@gmail.com"
 };
+
 
 
 
