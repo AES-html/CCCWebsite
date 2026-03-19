@@ -17,9 +17,9 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  * ==========================================
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
-  targetDate: "2026-02-23T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
-  title: "Next Event: Coming Soon!", // CHANGE THIS: Displayed above the timer
-  details: "New Events Coming Soon!" // CHANGE THIS: Detailed info
+  targetDate: "2026-03-23T19:30:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
+  title: "General Body Meeting #2", // CHANGE THIS: Displayed above the timer
+  details: "Join us for our second GBM!!" // CHANGE THIS: Detailed info
 };
 
 /**
@@ -31,8 +31,16 @@ export const COUNTDOWN_CONFIG: CountdownConfig = {
 export const CLUB_EVENTS: ClubEvent[] = [
   {
     id: '1',
-    title: 'Coming Soon',
-    date: new Date('2026-02-23T13:00:00'),
+    title: 'General Body Meeting',
+    date: new Date('2026-03-23T19:30:00'),
+    location: 'TBD',
+    description: 'Coming Soon',
+    type: 'Meeting'
+  },
+  {
+    id: '1',
+    title: 'General Body Meeting',
+    date: new Date('2026-03-23T19:30:00'),
     location: 'TBD',
     description: 'Coming Soon',
     type: 'Meeting'
