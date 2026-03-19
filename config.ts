@@ -34,16 +34,16 @@ export const CLUB_EVENTS: ClubEvent[] = [
     title: 'General Body Meeting',
     date: new Date('2026-03-23T19:30:00'),
     location: 'TBD',
-    description: 'Coming Soon',
+    description: 'Join us for our second GBM, location TBD!',
     type: 'Meeting'
   },
   {
     id: '1',
-    title: 'General Body Meeting',
-    date: new Date('2026-03-23T19:30:00'),
-    location: 'TBD',
-    description: 'Coming Soon',
-    type: 'Meeting'
+    title: 'Sunday Volunteering',
+    date: new Date('2026-03-29T10:30:00'),
+    location: 'Durham Rescue Mission',
+    description: 'Come volunteer with us at the Durham Rescue Mission! Check the groupme for specific sign up details and times.',
+    type: 'Service'
   },
 ];
 
