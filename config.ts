@@ -33,8 +33,8 @@ export const CLUB_EVENTS: ClubEvent[] = [
     id: '1',
     title: 'General Body Meeting',
     date: new Date('2026-03-23T19:30:00'),
-    location: 'TBD',
-    description: 'Join us for our second GBM, location TBD!',
+    location: 'Student Union RM 3206 A',
+    description: 'Join us for our second GBM, Student Union RM 3206 A!',
     type: 'Meeting'
   },
   {
