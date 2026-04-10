@@ -17,7 +17,7 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  * ==========================================
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
-  targetDate: "2026-03-23T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
+  targetDate: "2026-04-10T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
   title: "TENS Unit Fundraiser", // CHANGE THIS: Displayed above the timer
   details: "Join us for our period cramp awareness fundraiser today in the pit from 1-4!" // CHANGE THIS: Detailed info
 };
