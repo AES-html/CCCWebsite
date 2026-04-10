@@ -17,9 +17,9 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  * ==========================================
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
-  targetDate: "2026-03-23T19:30:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
-  title: "General Body Meeting #2", // CHANGE THIS: Displayed above the timer
-  details: "Join us for our second GBM!!" // CHANGE THIS: Detailed info
+  targetDate: "2026-03-23T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
+  title: "TENS Unit Fundraiser", // CHANGE THIS: Displayed above the timer
+  details: "Join us for our period cramp awareness fundraiser today in the pit from 1-4!" // CHANGE THIS: Detailed info
 };
 
 /**
@@ -31,16 +31,16 @@ export const COUNTDOWN_CONFIG: CountdownConfig = {
 export const CLUB_EVENTS: ClubEvent[] = [
   {
     id: '1',
-    title: 'General Body Meeting',
-    date: new Date('2026-03-23T19:30:00'),
-    location: 'Student Union RM 3206 A',
-    description: 'Join us for our second GBM, Student Union RM 3206 A!',
+    title: 'TENS Unit Fundraiser',
+    date: new Date('2026-04-10T13:00:00'),
+    location: 'The Pit',
+    description: 'Join us for our period cramp awareness fundraiser today in the pit from 1-4!',
     type: 'Meeting'
   },
   {
     id: '1',
     title: 'Sunday Volunteering',
-    date: new Date('2026-03-29T10:30:00'),
+    date: new Date('2026-04-12T11:00:00'),
     location: 'Durham Rescue Mission',
     description: 'Come volunteer with us at the Durham Rescue Mission! Check the groupme for specific sign up details and times.',
     type: 'Service'
