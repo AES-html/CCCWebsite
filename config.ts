@@ -18,8 +18,8 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
   targetDate: "2026-04-10T13:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
-  title: "TENS Unit Fundraiser", // CHANGE THIS: Displayed above the timer
-  details: "Join us for our period cramp awareness fundraiser today in the pit from 1-4!" // CHANGE THIS: Detailed info
+  title: "Coming Soon!", // CHANGE THIS: Displayed above the timer
+  details: "Coming Soon!" // CHANGE THIS: Detailed info
 };
 
 /**
@@ -29,14 +29,6 @@ export const COUNTDOWN_CONFIG: CountdownConfig = {
  * ==========================================
  */
 export const CLUB_EVENTS: ClubEvent[] = [
-  {
-    id: '1',
-    title: 'TENS Unit Fundraiser',
-    date: new Date('2026-04-10T13:00:00'),
-    location: 'The Pit',
-    description: 'Join us for our period cramp awareness fundraiser today in the pit from 1-4!',
-    type: 'Meeting'
-  },
   {
     id: '1',
     title: 'Sunday Volunteering',
