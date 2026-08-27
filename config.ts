@@ -17,7 +17,7 @@ export const CLUB_LOGO = "ccclogo.jpg"; // Example: "/logo.png"
  * ==========================================
  */
 export const COUNTDOWN_CONFIG: CountdownConfig = {
-  targetDate: "2026-09-4T18:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
+  targetDate: "2026-09-04T18:00:00", // CHANGE THIS: Format is YYYY-MM-DDTHH:mm:ss
   title: "CCC Interest Meeting", // CHANGE THIS: Displayed above the timer
   details: "Come see if CCC is right for you!" // CHANGE THIS: Detailed info
 };
